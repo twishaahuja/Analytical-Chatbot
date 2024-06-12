@@ -42,7 +42,7 @@ const Chat = () => {
     return (
         <div className="chat-container">
             <div className="chat-box">
-                <h4>Welcome to the analytical chatbot</h4>
+                <h4 style={{paddingRight:250}}>Welcome to the analytical chatbot</h4>
                 {messages.map((msg, index) => (
                     <div key={index}>
                         <Message sender={msg.sender} text={msg.text} />
