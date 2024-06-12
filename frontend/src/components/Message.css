@@ -1,0 +1,32 @@
+.message {
+    margin: 5px 0;
+    /* padding: 10px; */
+    border-radius: 10px;
+    max-width: 70%;
+    text-align: right;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #d1e7dd;
+    text-align: right;
+}
+
+.message.bot {
+    /* align-self: flex-start; */
+    /* background-color: #f8d7da; */
+    background-color: #e0e0dd;
+    text-align: left;
+}
+.bot-message {
+    align-self: flex-start;
+    /* background-color: #f8d7da; */
+    text-align: left;
+  }
+
+.bbb{
+    /* align-self: flex-end; */
+    /* background-color: #d1e7dd; */
+    background-color: #d4d4d4;
+    width: 100%;
+}
