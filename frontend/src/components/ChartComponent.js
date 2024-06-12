@@ -1,8 +1,4 @@
 import React from 'react';
-
-import { BarChart } from '@mui/x-charts/BarChart';
-import { Button } from '@mui/material';
-
 import { Bar } from 'react-chartjs-2';
 import { Chart, registerables } from 'chart.js';
 Chart.register(...registerables);
@@ -32,17 +28,8 @@ const ChartComponent = ({ chartData }) => {
     };
     
     return (
-        <div> 
-            <Button type="toggle" />
         <div className="chart-container">
             <Bar data={data} options={options} />
-           
-            {/* <BarChart
-            dataset={chartData.data}
-            xAxis={chartData.labels}
-            // {...chartSetting}
-            /> */}
-        </div>
         </div>
     );
 };
